@@ -151,18 +151,10 @@
         text-align: center;
         margin-top:4rem;
         list-style: none;
-        display: flex;
-        justify-content: space-evenly;
         font-size:1.5rem;
-    }
-    footer a{
-        text-decoration: none;
-        color:white;
-        margin-top:.5rem;
     }
     footer p{
         margin-top:.5rem;
-        margin-left:4rem;
     }
 
 
@@ -231,10 +223,5 @@
         #about p{
             font-size:2rem;
             padding:0 12rem;
-        }
-       
-        footer{
-            display: flex;
-        }
-        
+        } 
       }
