@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" /> 
     <link href="https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
     <body>
         <div id='main'>
@@ -13,7 +14,7 @@
                 <div id='landing-content'>
                     <div id='landing-text'>
                         <h1>Hi, I'm Josh</h1>
-                        <p>Software Developer</p>
+                        <p>Full-Stack Developer</p>
                     </div> 
                     <ul id='social'>
                         <li><a href='mailto:mcdanije22@gmail.com?Subject=Hello%20again' target='_top' class='fa fa-paper-plane'></a></li>
@@ -31,7 +32,7 @@
                     </h1>
                     <hr/>
                     <div id='project-container'>
-                        <div class='project'>
+                        <div class='project' data-aos='fade-down'>
                             <img src='./store_image.png'> 
                             <div class='project-info'>
                                 <h2>Phonelab</h2>
@@ -43,7 +44,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class='project'>
+                        <div class='project' data-aos='fade-down'>
                             <img src='./contact_image.png'>
                             <div class='project-info'>        
                                 <h2>Contacts</h2>
@@ -59,11 +60,11 @@
                 </div>
             </div>
             <div id='about'>
-                <div id='about-contact'>
+                <div id='about-contact' data-aos='fade-up'>
                         <h1>About me</h1>
                         <hr />
                         <h3>Josh McDaniel</h3>
-                        <p>I am a Software Developer based out of New York. I have a passion for using web technologies to produce creative solutions to web problems. I enjoy learning new technologies and building side projects to expand my skills. I am always looking for new opportunities to further develop my skill set.</p>
+                        <p>I am a Full-Stack Developer based out of New York. I have a passion for using web technologies to produce creative solutions to web problems. I enjoy learning new technologies and building side projects to expand my skills. I am always looking for new opportunities to further develop my skill set.</p>
                         <a href='mailto:mcdanije22@gmail.com?Subject=Hello%20again' target='_top'><button class='main-button'><i class='fa fa-paper-plane'></i> Contact Me</button></a>
                 </div>
             </div>
@@ -72,5 +73,11 @@
                 <!-- <li><a href="#" class='fa fa-angle-up'></a></li> -->
             </footer>
         </div>  
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                duration: 1200
+            });
+          </script>
     </body>
 </html>
