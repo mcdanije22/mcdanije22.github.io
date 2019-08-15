@@ -42,7 +42,7 @@ button:focus{
     font-size:1.8rem;
 }
 .main-button{
-    margin:2rem 0;
+    margin:2rem 0 1.5rem 0;
     font-size:1.5rem;
     background-color:transparent;
     padding:.5rem 2rem;
@@ -55,7 +55,6 @@ button:focus{
     list-style: none;
     display: flex;
     justify-content: center;
-    margin:1rem 0;
 }
 #social a{
     color:white;
@@ -169,16 +168,13 @@ button:focus{
             font-size:3.5rem;
         }
         .main-button{
-            margin:4rem 0;
             font-size:3rem;
             padding:0rem 3rem;
         }
-        #social{
-           margin-top:1rem;
-        }
+       
         #social a{
             font-size:2rem;
-            padding:1rem;
+            padding:0 .5rem;
         }
         #projects-content h1{
             text-align:center;
